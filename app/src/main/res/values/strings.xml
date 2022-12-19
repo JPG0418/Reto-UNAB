@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Apicacion_G104</string>
+
+    // Stirng Pantalla iicial
+
+    <string name="textBtn">HOME</string>
+
+    // Stirng Lista Productos
+
+    <string name="textTitle">LISTA DE PRODUCTOS</string>
+    <string name="textProduct1">Producto 1</string>
+    <string name="textProduct2">Producto 2</string>
+    <string name="textProduct3">Producto 3</string>
+    <string name="textBtnProducto1">Info</string>
+    <string name="textBtnProducto2">Info</string>
+    <string name="textBtnProducto3">Info</string>
+
+    // Stirng producto 1
+    <string name="textBtnReturn">Volver</string>
+
+
+
+</resources>
