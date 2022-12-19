@@ -16,11 +16,10 @@ public class PantallaInicial extends AppCompatActivity {
         setContentView(R.layout.activity_pantalla_inicial);
 
         btnOk = (Button) findViewById(R.id.btnOk);
-
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ListaProductos.class);
+                Intent intent = new Intent(getApplicationContext(), Catalogo.class);
                 startActivity(intent);
             }
         });

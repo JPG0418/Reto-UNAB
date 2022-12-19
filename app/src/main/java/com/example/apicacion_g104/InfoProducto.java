@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class InfoProducto1 extends AppCompatActivity {
+public class InfoProducto extends AppCompatActivity {
 
     private Button btnReturn;
     private TextView textTitleProduct, textDescription;

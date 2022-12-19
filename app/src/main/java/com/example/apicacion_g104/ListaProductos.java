@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ListaProductos extends AppCompatActivity {
@@ -28,7 +27,7 @@ public class ListaProductos extends AppCompatActivity {
         btnProduct1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), InfoProducto1.class);
+                Intent intent = new Intent(getApplicationContext(), InfoProducto.class);
                 intent.putExtra("title", textProduct1.getText().toString());
                 intent.putExtra("description", "Descripcion del producto 1");
                 intent.putExtra("image", R.drawable.imagen1);
@@ -39,7 +38,7 @@ public class ListaProductos extends AppCompatActivity {
         btnProduct2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), InfoProducto1.class);
+                Intent intent = new Intent(getApplicationContext(), InfoProducto.class);
                 intent.putExtra("title", textProduct2.getText().toString());
                 intent.putExtra("description", "Descripcion del producto 2");
                 intent.putExtra("image", R.drawable.imagen2);
@@ -50,7 +49,7 @@ public class ListaProductos extends AppCompatActivity {
         btnProduct3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), InfoProducto1.class);
+                Intent intent = new Intent(getApplicationContext(), InfoProducto.class);
                 intent.putExtra("title", textProduct3.getText().toString());
                 intent.putExtra("description", "Descripcion del producto 3");
                 intent.putExtra("image", R.drawable.fondo1);
