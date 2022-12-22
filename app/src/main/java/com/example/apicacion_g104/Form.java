@@ -35,7 +35,9 @@ public class ListaProductos extends AppCompatActivity {
                         editeName.getText().toString(),
                         editDescription.getText().toString(),
                         Integer.parseInt(editPrice.getText().toString()),
-                        R.drawable.fondo1
+                        R.drawable.imagen1,
+                        "",
+                        ""
                 );
                 dbFirebase.insertData(producto);
                 Intent intent = new Intent(getApplicationContext(), Catalogo.class);
